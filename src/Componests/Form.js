@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Alert from './AlertMessage'
 
 class Form extends Component{
 
@@ -44,11 +45,9 @@ class Form extends Component{
                     HasErros: false
                 })
             },10000)
-            return (
-                <div className="container">
-                    <div className="alert alert-danger"><i class="fas fa-times"></i> Debes Ingresar los datos requeridos</div>
-                </div>
-            )
+           return (
+               <Alert Message="Debes Ingresar los datos requeridos"></Alert>
+           )
         }
     }
 
