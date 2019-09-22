@@ -30,6 +30,7 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2"
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "prop-types": "^15.7.2"
   }
 }

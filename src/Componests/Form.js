@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Alert from './AlertMessage'
+import PropTypes from 'prop-types';
 
 class Form extends Component{
 
@@ -85,4 +86,8 @@ class Form extends Component{
     }
 }
 
+
+Form.propTypes= {
+    RealizarBusqueda: PropTypes.func.isRequired
+}
 export default Form;

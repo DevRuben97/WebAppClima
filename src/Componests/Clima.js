@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Alert from './AlertMessage';
+import PropTypes from 'prop-types';
 
 class Clima extends Component{
     
@@ -37,4 +38,7 @@ class Clima extends Component{
     }
 }
 
+Clima.propTypes= {
+    Datos: PropTypes.object.isRequired
+}
 export default Clima;

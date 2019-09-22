@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 
 const Alert= (props)=>{
     return (
@@ -9,4 +9,7 @@ const Alert= (props)=>{
     )
 }
 
+Alert.propTypes= {
+    Message: PropTypes.string.isRequired
+}
 export default Alert;
