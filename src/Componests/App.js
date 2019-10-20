@@ -48,7 +48,7 @@ const App= (props)=>{
 
   return (
     <div>
-      <Header Title="Consulta el Clima v1.0"></Header>
+      <Header Title="Consulta el Clima v1.1"></Header>
       <Form RealizarBusqueda= {RealizarBusqueda}></Form>
       <br/>
       {ShowClima()}
